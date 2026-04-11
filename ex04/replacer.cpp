@@ -28,7 +28,6 @@ int	replacer(std::fstream& fs, char *filename, std::string s1, std::string s2){
 		std::getline(fs, line);
 		if (fs.eof() != true)
 			line += '\n';
-		std::cout << line;
 		found = line.find(s1, 0);
 		while (found != std::string::npos){
 			line.erase(found, s1.length());

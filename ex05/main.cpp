@@ -15,7 +15,7 @@
 int main ( int argc, char *argv[]){
 	if (argc != 2)
 	{
-		std::cout << "Harl is pretty silent this time. Try using: ./harlFilter <level>" << std::endl;
+		std::cout << "Harl is pretty silent this time. Try using: ./harlFilter <LEVEL>" << std::endl;
 		return (1);
 	}
 	
